@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-from zen import*
+import this
+print(f"{this}")
