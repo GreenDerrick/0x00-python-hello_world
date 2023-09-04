@@ -4,4 +4,4 @@ print(
         f"{number:d} "
         f"Battery Street",
         end="\n"
-        )
+)
