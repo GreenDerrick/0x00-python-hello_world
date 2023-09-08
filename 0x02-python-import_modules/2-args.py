@@ -11,7 +11,7 @@ if __name__ == '__main__':
     elif argc == 1:
         print("{}: argument.".format(argc))
         print("{}: {}".format(i, argv[i]))
-    elif argc > 1:
+    else:
         print("{} arguments".format(argc))
         while i <= argc:
             print("{}: {}".format(i, argv[i]))
