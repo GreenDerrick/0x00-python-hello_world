@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 if __name__ == '__main__':
-    from calculator_1 import add, mul, div, sub
     a = 10
     b = 5
+    from calculator_1 import add, mul, div, sub
     print("{} + {} = {}".format(a, b, add(a, b)))
     print("{} + {} = {}".format(a, b, sub(a, b)))
     print("{} + {} = {}".format(a, b, mul(a, b)))
